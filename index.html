@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Atlantica</h1>
+    <p>The City of Ocean Dreams!</p>
+</header>
+<nav>
+    <a href="#da">Description </a>
+    <a href="#Attraction">Attraction</a>
+    <a href="#Statistics">Statistics</a>
+    <a href="#Feedback">Feedback</a>
+    <a href="#Quotes">Quotes</a>
+    <a href="#footer">Contact Us</a>
+</nav>
+<main>
+<section>
+    <h2 id="da">Discover Atlantica</h2>
+    <div>
+    <span>Atlantica, the city
+where the horizon merges the sky with the ocean,
+offering dreams a canvas as vast as the sea</span>
+<span>
+<img  src="https://media.istockphoto.com/id/935746242/photo/mata-atlantica-atlantic-forest-in-brazil.jpg?s=612x612&w=0&k=20&c=NqE6m2Q8J2w6M7x7Pi8VxnMzLzq-HJQvCt5EMuvMU5o=" alt="? Err_"></span>
+</div>
+</section>
+
+<section>
+    <h2 id="Attraction">Attractions</h2>
+    <h3>Main Attractions</h3>
+    <span>
+    <ol>
+        <li>Atlantis Tower</li>
+        <li>Deap Sea Museum</li>
+        <li>The Oceanic Bridge</li>
+    </ol>
+</span>
+    <h3>Local Attractions</h3>
+    <ul>
+        <li>Merman's Street</li>
+        <li>Neptune's Diner</li>
+        <li>Atlantica Beaches
+            <ul>
+                <li>North Beach</li>
+                <li>Reef Bay</li>
+                <li>Mermaid Cove</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+<section>
+    <h2 id="Statistics">City Statistics</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Attribute</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Population</td>
+                <td>5 Million</td>
+            </tr>
+            <tr>
+                <td>Landmarks</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Parks</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Schools</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Beaches</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+   </section>
+    <form action="submit.html" id="Feedback">
+       <h2>Feedback :</h2>
+        <label for="name">Name :*</label>
+        <input type="text" name="name" id="name" required> <br>
+        <label for="email">Email :*</label>
+        <input type="email" name="email" id="email" required> <br>
+        <label for="age">Age :*</label>
+        <input type="number" name="age" id="age" required> <br>
+
+        <label for="favAttraction">Favourite Attraction :</label>
+       <select name="select" id="favAttraction" class="checked">
+        <option value="">--Please select your Favourite Attraction--</option>
+        <option value="deapSeaMuseum">Deap Sea Museum</option>
+        <option value="atlantisTower">Atlantis Tower</option>
+        <option value="theOceanicBridge">The Oceanic Bridge</option>
+       </select>
+       <br>
+       <label for="comments">Comments</label>
+       <textarea name="comments" id="comments" "></textarea> <br>
+       <label for="newsLetter">News Letter</label>
+       <input style= "margin-right: 90%" type ="checkbox" name="newsLetter" id="newsLetter"> <br>
+       <button type="submit">Submit</button>
+    </form>
+    <div>
+        <h2 id="Quotes">What Citizens Say</h2>
+        <p>"Atlantica beaches are paradise on Earth. Nothing beats a sunset here!"</p>
+        <blockquote> -Alex</blockquote>
+        <p>The blend of modern skyscrapers and ancient oceanic history is memerizing.</p>
+        <blockquote>-Isabel</blockquote>
+    </div>
+    </main>
+<footer id="footer">
+    <div>
+        <h2 >Contact Us :</h2>
+        <pre style="font-style: italic;font-family: inherit;margin: 1px;">
+Atlantia Tourism Office
+100 Ocean Drive, Atlantia</pre>
+        <label style="padding: 0%;margin-top: 0%;" for="Contact">Mail-us :</label>
+        <a id = "Contact" href ="mailto: info@atlantica.com">info@atlantica.com</a>
+    </div>
+</footer>
+</body>
+</html>
