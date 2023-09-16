@@ -60,7 +60,7 @@ form>input{
   }
   form>select{
     float:right;
-    margin-right: 61%;
+    margin-right: 64%;
     background-color: beige;
     padding: 2px;
     border: none;
@@ -79,7 +79,7 @@ form>input{
     padding: 4px;
     border-radius: 5px;
     border: none;
-    margin-left: 30%;
+    margin-left: 20%;
  }
  button:hover{
     background-color: rgb(81, 81, 39);
